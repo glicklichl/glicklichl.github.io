@@ -93,7 +93,9 @@ nav a:active {
     padding-bottom: 5%;
 }
 
-
+.about-text{
+    margin-left: 5%;
+}
 
 .header-image {
     text-align: center; 
@@ -133,6 +135,12 @@ nav a:active {
     background-repeat: repeat-x;
     background-size:40px 47px, 40px 47px;
 }
+
+footer{
+    text-align: center;
+    font-size: 15px;
+}
+
 
 
 
