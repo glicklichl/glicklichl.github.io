@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.nav-bar {
+    background: #ffffff; /*TODO: test*/
+    width: 100vw;
+    text-align: center;
+    margin-right: 0;
+    display: block;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;
+
+
+    overflow:scroll;
+    white-space: nowrap;
+
+    /* bow shadow */
+    -webkit-box-shadow: 2px 6px 37px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 37px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 6px 37px -10px rgba(0,0,0,0.75);
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 2.0%;
+    margin-left: 2.0%;
+    padding-top: 2%; padding-bottom: 2%;
+}
+
+/*
+ * navigation links
+ */
+
+
+/* unvisited navigation link */
+nav a {
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    text-decoration: none;
+    font-size: 3vmin;
+}
+
+
+nav a:link {
+    color: #7f8c8d;
+}
+
+/* visited navigation link */
+nav a:visited {
+    color: #7f8c8d;
+}
+
+/* mouse over navigation link */
+nav a:hover {
+    color: #010101;
+}
+
+/* selected navigation link */
+nav a:active {
+    color: #010101;
+}
+
+
+/* bar with name on header */
+.header-name {
+
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+
+    /* box shadow */
+    -webkit-box-shadow: 2px 6px 37px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 37px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 6px 37px -10px rgba(0,0,0,0.75);
+
+    text-align: center; 
+    font-size: 15vmin;
+    font-family: 'Pacifico', cursive;
+
+    /* positioning and sizing */ 
+    position: absolute;
+    top: 30vh;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+.header-image {
+    text-align: center; 
+    max-height: 110vh;
+    width: auto;
+    overflow: hidden;
+}
+
+
+.section-title {
+    margin-bottom: 2%;
+}
+
+/* content containers */
+.content-container {
+    height: 120vh;
+    width: 100%;
+}
+
+.content-text {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    padding-top: 9%; 
+    height: 100%;
+}
+
+
+
+.zigzag:before{
+    content:"";
+    display:block;
+    position: relative;
+    top: -22px;
+    height:22px;
+    background: linear-gradient( 45deg, white 50%, #BFBFBF 50%, transparent 55%) 0 0,
+                linear-gradient(-45deg, white 50%, #BFBFBF 50%, transparent 55%) 0 0;
+    background-repeat: repeat-x;
+    background-size:40px 47px, 40px 47px;
+}
+
+
+
+
+
+
