@@ -113,7 +113,6 @@ nav a:active {
 .content-container {
     height: 120vh;
     width: 100%;
-    position: relative;
 }
 
 .content-text {
