@@ -127,7 +127,7 @@ nav a:active {
 .zigzag:before{
     content:"";
     display:block;
-    position: fixed;
+    position: relative;
     top: -22px;
     height:22px;
     background: linear-gradient( 45deg, white 50%, #BFBFBF 50%, transparent 55%) 0 0,
