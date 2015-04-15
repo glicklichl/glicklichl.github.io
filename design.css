@@ -107,11 +107,12 @@ nav a:active {
 
 .section-title {
     margin-bottom: 2%;
+    font-size: 45pt;
 }
 
 /* content containers */
 .content-container {
-    height: 120vh;
+    
     width: 100%;
 }
 
@@ -122,6 +123,10 @@ nav a:active {
     height: 100%;
 }
 
+
+.zigzag {
+    min-height: 220vh;
+}
 
 
 .zigzag:before{
