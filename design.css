@@ -125,7 +125,7 @@ nav a:active {
 
 
 .zigzag {
-    position: relative;
+    /* position: relative; */
     min-height: 220vh;
 }
 
