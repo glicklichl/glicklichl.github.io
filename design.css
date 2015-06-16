@@ -135,6 +135,7 @@ nav a:active {
     position: relative;
     top: -22px;
     height:22px;
+    background-color: #b0c4de;
     background: linear-gradient( 45deg, white 50%, #000000 50%, transparent 55%) 0 0,
                 linear-gradient(-45deg, white 50%, #000000 50%, transparent 55%) 0 0;
     background-repeat: repeat-x;
