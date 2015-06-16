@@ -103,13 +103,6 @@ nav a:active {
     overflow: hidden;
 }
 
-.about-image {
-    text-align: center; 
-    max-height: 110vh;
-    width: auto;
-    overflow: hidden;
-}
-
 .section-title {
     margin-bottom: 2%;
     font-size: 45pt;
@@ -149,7 +142,7 @@ nav a:active {
 
 footer{
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 
