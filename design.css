@@ -138,7 +138,7 @@ nav a:active {
     background: linear-gradient( 45deg, black 50%, #000000 50%, transparent 55%) 0 0,
                 linear-gradient(-45deg, white 50%, #000000 50%, transparent 55%) 0 0;
     background-repeat: repeat-x;
-    background-size:20px 27px, 20px 27px;
+    background-size:30px 37px, 30px 37px;
 }
 
 footer{
