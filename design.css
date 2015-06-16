@@ -103,6 +103,12 @@ nav a:active {
     overflow: hidden;
 }
 
+.about-image {
+    text-align: center; 
+    max-height: 110vh;
+    width: auto;
+    overflow: hidden;
+}
 
 .section-title {
     margin-bottom: 2%;
