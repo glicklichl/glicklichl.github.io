@@ -125,7 +125,7 @@ nav a:active {
 .zigzag {
     /* position: relative; */
     min-height: 220vh;
-    background-color: #999999;
+    background-color: #F0FFFF;
 }
 
 
@@ -144,7 +144,7 @@ nav a:active {
 footer{
     text-align: center;
     font-size: 12px;
-    background-color: #999999;
+    background-color: #F0FFFF;
 }
 
 
